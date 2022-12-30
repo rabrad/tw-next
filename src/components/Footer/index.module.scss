@@ -1,8 +1,11 @@
 .description {
-    padding: 10px 0 40px;
-    color: #ccc;
-    font-size: 14px;
-    text-align: center;
-    border-top: 1px solid;
-    margin-top: 50px;
+   padding: 0;
+   border-top: 1px solid;
+
+    @media (min-width: 414px) {
+      color: rgb(185, 185, 185);
+      font-size: 14px;
+      text-align: center;
+      border-top: none;
+    }
   }
