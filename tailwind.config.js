@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "jit",
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx}",
     "./src/pages/**/*.{js,ts,jsx,tsx}",
@@ -6,7 +7,12 @@ module.exports = {
   ],
   darkMode: "class", // 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#649c16",
+        secondary: "#169a9c",
+      },
+    },
   },
   plugins: [],
 };

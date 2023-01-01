@@ -3,7 +3,7 @@ import styles from "./index.module.scss";
 
 export default function Footer() {
   return (
-    <footer className="mx-auto flex max-w-md flex-col items-center justify-center gap-8 text-white sm:flex-row sm:gap-16">
+    <footer className="mx-auto my-8 flex max-w-md flex-col items-center justify-center gap-8 text-white sm:flex-row sm:gap-16">
       <div>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
